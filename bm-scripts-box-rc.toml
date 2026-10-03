@@ -1,0 +1,29 @@
+[bmscriptsbox.info]
+id = "22db1ffd-bb73-4ef2-a5ce-bf161b6e4c39"              
+name = "LICEcap"                                    
+desc = "GIF录屏工具 LICEcap | 自由框选屏幕区域录制、支持内嵌录制窗口或控件、可调帧率与循环,一键导出 GIF/APNG 动画,适合录制屏幕演示与操作教程"
+version = "1.0.0"                                        
+icon = "licecap.png"   
+
+[bmscriptsbox.runtime]
+language = "exe"  
+language_version = ">=0.0.0"             
+entry = "LICEcap.exe"                   
+terminal = "never"   
+
+
+[bmscriptsbox.triggers]
+[bmscriptsbox.triggers.context_menu]                   
+enabled = true                                 
+targets = ["background"]                        
+
+[bmscriptsbox.triggers.shortcut]                          
+enabled = true                                  
+input_type = ""                                 
+
+
+
+
+
+
+
